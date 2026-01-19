@@ -1,0 +1,372 @@
+{
+  "name": "CaptionAI Design System",
+  "version": "1.0.0",
+  "description": "A dark, premium design system with coral/orange gradient accents for AI-powered tools",
+  
+  "colors": {
+    "primitives": {
+      "coral": {
+        "50": "hsl(16, 90%, 95%)",
+        "100": "hsl(16, 90%, 90%)",
+        "200": "hsl(16, 90%, 80%)",
+        "300": "hsl(16, 90%, 70%)",
+        "400": "hsl(16, 90%, 60%)",
+        "500": "hsl(16, 90%, 50%)",
+        "600": "hsl(16, 90%, 40%)",
+        "700": "hsl(16, 90%, 30%)",
+        "800": "hsl(16, 90%, 20%)",
+        "900": "hsl(16, 90%, 10%)"
+      },
+      "amber": {
+        "400": "hsl(35, 95%, 55%)",
+        "500": "hsl(35, 95%, 50%)"
+      },
+      "slate": {
+        "900": "hsl(220, 20%, 6%)",
+        "800": "hsl(220, 18%, 10%)",
+        "700": "hsl(220, 15%, 15%)",
+        "600": "hsl(220, 15%, 18%)",
+        "500": "hsl(220, 10%, 55%)",
+        "100": "hsl(0, 0%, 98%)"
+      }
+    },
+    "semantic": {
+      "background": {
+        "value": "hsl(220, 20%, 6%)",
+        "description": "Main app background - deep dark"
+      },
+      "foreground": {
+        "value": "hsl(0, 0%, 98%)",
+        "description": "Primary text color - near white"
+      },
+      "card": {
+        "value": "hsl(220, 18%, 10%)",
+        "description": "Card and elevated surface background"
+      },
+      "cardForeground": {
+        "value": "hsl(0, 0%, 98%)",
+        "description": "Text on card surfaces"
+      },
+      "primary": {
+        "value": "hsl(16, 90%, 60%)",
+        "description": "Main brand color - coral"
+      },
+      "primaryForeground": {
+        "value": "hsl(0, 0%, 100%)",
+        "description": "Text on primary surfaces"
+      },
+      "secondary": {
+        "value": "hsl(220, 15%, 15%)",
+        "description": "Secondary UI surfaces"
+      },
+      "secondaryForeground": {
+        "value": "hsl(0, 0%, 98%)",
+        "description": "Text on secondary surfaces"
+      },
+      "muted": {
+        "value": "hsl(220, 15%, 18%)",
+        "description": "Muted backgrounds and borders"
+      },
+      "mutedForeground": {
+        "value": "hsl(220, 10%, 55%)",
+        "description": "Secondary/muted text"
+      },
+      "accent": {
+        "value": "hsl(16, 90%, 60%)",
+        "description": "Accent color matching primary"
+      },
+      "border": {
+        "value": "hsl(220, 15%, 18%)",
+        "description": "Default border color"
+      },
+      "input": {
+        "value": "hsl(220, 15%, 15%)",
+        "description": "Input field background"
+      },
+      "ring": {
+        "value": "hsl(16, 90%, 60%)",
+        "description": "Focus ring color"
+      },
+      "destructive": {
+        "value": "hsl(0, 84%, 60%)",
+        "description": "Error and destructive actions"
+      }
+    }
+  },
+
+  "gradients": {
+    "primary": {
+      "value": "linear-gradient(135deg, hsl(16, 90%, 60%) 0%, hsl(35, 95%, 55%) 100%)",
+      "description": "Main brand gradient - coral to amber",
+      "usage": "Hero buttons, accents, highlights"
+    },
+    "glow": {
+      "value": "linear-gradient(135deg, hsl(16, 90%, 60%, 0.3) 0%, hsl(35, 95%, 55%, 0.1) 100%)",
+      "description": "Subtle glow effect gradient",
+      "usage": "Background glows, hover states"
+    },
+    "surface": {
+      "value": "linear-gradient(180deg, hsl(220, 18%, 12%) 0%, hsl(220, 20%, 8%) 100%)",
+      "description": "Subtle surface gradient",
+      "usage": "Upload zones, card backgrounds"
+    }
+  },
+
+  "shadows": {
+    "glow": {
+      "value": "0 0 60px -12px hsl(16, 90%, 60%, 0.4)",
+      "description": "Primary color glow effect"
+    },
+    "card": {
+      "value": "0 4px 24px -4px hsl(0, 0%, 0%, 0.5)",
+      "description": "Standard card elevation"
+    },
+    "elevated": {
+      "value": "0 20px 40px -8px hsl(0, 0%, 0%, 0.6)",
+      "description": "High elevation for modals/dialogs"
+    }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "sans": ["Inter", "system-ui", "sans-serif"]
+    },
+    "fontSize": {
+      "xs": { "size": "0.75rem", "lineHeight": "1rem" },
+      "sm": { "size": "0.875rem", "lineHeight": "1.25rem" },
+      "base": { "size": "1rem", "lineHeight": "1.5rem" },
+      "lg": { "size": "1.125rem", "lineHeight": "1.75rem" },
+      "xl": { "size": "1.25rem", "lineHeight": "1.75rem" },
+      "2xl": { "size": "1.5rem", "lineHeight": "2rem" },
+      "3xl": { "size": "1.875rem", "lineHeight": "2.25rem" },
+      "4xl": { "size": "2.25rem", "lineHeight": "2.5rem" },
+      "5xl": { "size": "3rem", "lineHeight": "1.1" },
+      "6xl": { "size": "3.75rem", "lineHeight": "1.1" },
+      "7xl": { "size": "4.5rem", "lineHeight": "1.1" }
+    },
+    "fontWeight": {
+      "normal": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+
+  "spacing": {
+    "0": "0",
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "5": "1.25rem",
+    "6": "1.5rem",
+    "8": "2rem",
+    "10": "2.5rem",
+    "12": "3rem",
+    "16": "4rem",
+    "20": "5rem",
+    "24": "6rem"
+  },
+
+  "borderRadius": {
+    "sm": "calc(0.75rem - 4px)",
+    "md": "calc(0.75rem - 2px)",
+    "lg": "0.75rem",
+    "xl": "1rem",
+    "2xl": "1.5rem",
+    "full": "9999px"
+  },
+
+  "animations": {
+    "fadeIn": {
+      "keyframes": {
+        "from": { "opacity": "0", "transform": "translateY(10px)" },
+        "to": { "opacity": "1", "transform": "translateY(0)" }
+      },
+      "duration": "0.5s",
+      "easing": "ease-out"
+    },
+    "scaleIn": {
+      "keyframes": {
+        "from": { "opacity": "0", "transform": "scale(0.95)" },
+        "to": { "opacity": "1", "transform": "scale(1)" }
+      },
+      "duration": "0.3s",
+      "easing": "ease-out"
+    },
+    "float": {
+      "keyframes": {
+        "0%, 100%": { "transform": "translateY(0px)" },
+        "50%": { "transform": "translateY(-10px)" }
+      },
+      "duration": "6s",
+      "easing": "ease-in-out",
+      "iteration": "infinite"
+    },
+    "spinSlow": {
+      "keyframes": {
+        "from": { "transform": "rotate(0deg)" },
+        "to": { "transform": "rotate(360deg)" }
+      },
+      "duration": "8s",
+      "easing": "linear",
+      "iteration": "infinite"
+    },
+    "accordionDown": {
+      "keyframes": {
+        "from": { "height": "0" },
+        "to": { "height": "var(--radix-accordion-content-height)" }
+      },
+      "duration": "0.2s",
+      "easing": "ease-out"
+    },
+    "accordionUp": {
+      "keyframes": {
+        "from": { "height": "var(--radix-accordion-content-height)" },
+        "to": { "height": "0" }
+      },
+      "duration": "0.2s",
+      "easing": "ease-out"
+    }
+  },
+
+  "transitions": {
+    "default": {
+      "duration": "200ms",
+      "easing": "ease"
+    },
+    "fast": {
+      "duration": "150ms",
+      "easing": "ease"
+    },
+    "slow": {
+      "duration": "300ms",
+      "easing": "ease"
+    }
+  },
+
+  "components": {
+    "button": {
+      "variants": {
+        "default": {
+          "background": "hsl(var(--primary))",
+          "color": "hsl(var(--primary-foreground))",
+          "shadow": "md",
+          "hover": { "opacity": 0.9, "shadow": "lg" }
+        },
+        "hero": {
+          "background": "linear-gradient(to right, hsl(16, 90%, 60%), hsl(35, 95%, 55%))",
+          "color": "hsl(0, 0%, 100%)",
+          "shadow": "lg",
+          "glow": true,
+          "fontWeight": "semibold"
+        },
+        "heroOutline": {
+          "background": "transparent",
+          "border": "2px solid hsl(16, 90%, 60%, 0.5)",
+          "color": "hsl(0, 0%, 98%)",
+          "hover": { "borderColor": "hsl(16, 90%, 60%)", "background": "hsl(16, 90%, 60%, 0.1)" }
+        },
+        "outline": {
+          "background": "transparent",
+          "border": "1px solid hsl(var(--border))",
+          "hover": { "background": "hsl(var(--secondary))" }
+        },
+        "ghost": {
+          "background": "transparent",
+          "hover": { "background": "hsl(var(--secondary))" }
+        },
+        "secondary": {
+          "background": "hsl(var(--secondary))",
+          "color": "hsl(var(--secondary-foreground))"
+        },
+        "destructive": {
+          "background": "hsl(var(--destructive))",
+          "color": "hsl(var(--destructive-foreground))"
+        }
+      },
+      "sizes": {
+        "sm": { "height": "2.25rem", "padding": "0.75rem", "fontSize": "0.75rem" },
+        "default": { "height": "2.5rem", "padding": "1rem", "fontSize": "0.875rem" },
+        "lg": { "height": "3rem", "padding": "2rem", "fontSize": "1rem" },
+        "xl": { "height": "3.5rem", "padding": "2.5rem", "fontSize": "1.125rem" },
+        "icon": { "height": "2.5rem", "width": "2.5rem" }
+      }
+    },
+    "card": {
+      "background": "hsl(var(--card))",
+      "border": "1px solid hsl(var(--border))",
+      "borderRadius": "1.5rem",
+      "padding": "1.5rem",
+      "hover": {
+        "borderColor": "hsl(16, 90%, 60%, 0.5)",
+        "shadow": "lg"
+      }
+    },
+    "input": {
+      "background": "hsl(var(--secondary), 0.5)",
+      "border": "1px solid hsl(var(--border))",
+      "borderRadius": "0.75rem",
+      "height": "3rem",
+      "focus": {
+        "ring": "2px solid hsl(var(--ring))",
+        "borderColor": "hsl(var(--primary))"
+      }
+    },
+    "uploadZone": {
+      "background": "linear-gradient(180deg, hsl(220, 18%, 12%) 0%, hsl(220, 20%, 8%) 100%)",
+      "border": "2px dashed hsl(var(--border))",
+      "borderRadius": "1.5rem",
+      "hover": {
+        "borderColor": "hsl(var(--primary))",
+        "glow": true
+      },
+      "dragging": {
+        "borderColor": "hsl(var(--primary))",
+        "background": "hsl(var(--primary), 0.05)",
+        "glow": true
+      }
+    },
+    "badge": {
+      "background": "hsl(var(--card))",
+      "border": "1px solid hsl(var(--border))",
+      "borderRadius": "9999px",
+      "padding": "0.5rem 1rem",
+      "fontSize": "0.875rem"
+    },
+    "header": {
+      "background": "hsl(var(--background), 0.8)",
+      "backdropBlur": "24px",
+      "borderBottom": "1px solid hsl(var(--border), 0.5)",
+      "height": "4rem",
+      "position": "fixed"
+    }
+  },
+
+  "layout": {
+    "container": {
+      "maxWidth": "1400px",
+      "padding": "2rem",
+      "center": true
+    },
+    "section": {
+      "paddingY": "5rem"
+    }
+  },
+
+  "effects": {
+    "gradientText": {
+      "background": "linear-gradient(135deg, hsl(16, 90%, 60%) 0%, hsl(35, 95%, 55%) 100%)",
+      "backgroundClip": "text",
+      "textFillColor": "transparent"
+    },
+    "gradientBorder": {
+      "description": "Gradient border using pseudo-element technique",
+      "background": "linear-gradient(135deg, hsl(16, 90%, 60%) 0%, hsl(35, 95%, 55%) 100%)"
+    },
+    "glassBlur": {
+      "backdropFilter": "blur(24px)",
+      "background": "hsl(var(--background), 0.8)"
+    }
+  }
+}
