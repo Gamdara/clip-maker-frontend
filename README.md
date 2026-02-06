@@ -1,6 +1,6 @@
 # Clip Maker Frontend
 
-React + TypeScript + Vite frontend for the video caption generator.
+React + TypeScript + Vite frontend for the video caption generator. 
 
 ## Features
 
