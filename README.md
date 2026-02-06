@@ -14,7 +14,7 @@ React + TypeScript + Vite frontend for the video caption generator.
 ## Setup
 
 ```bash
-npm install
+npm install 
 npm run dev
 ```
 
